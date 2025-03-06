@@ -1,79 +1,150 @@
-# Analise-de-uma-Turma
-Turma fictícia 
-Conjunto de dados que armazena informações sobre o desempenho de alunos do último ano de uma escola secundária fictícia (muito grande) no final do último semestre.
+Análise de uma Turma
 
-Descrição da coluna
-Conjunto de dados obtidos : https://www.kaggle.com/datasets/mexwell/student-scores
-Questões Abstraidas dos dados
-1)Sobre os primeiros e últimos nomes: 
+Este projeto consiste na análise de um conjunto de dados fictício que armazena informações sobre o desempenho de alunos do último ano de uma escola secundária fictícia de grande porte no final do último semestre.
 
-1.1)Qual o nome mais repetido? Zachary
-1.2)Qual o nome mais repetido? Aaron
-1.3)Qual o último nome mais repetido? Zuniga
-1.2)Qual o último nome que menos se repete? Abbott
+Conjunto de Dados
 
-2)Qual a porcentagem de mulheres e homens na escola?
-Feminino = 50.1%
-Masculino = 49.9%
+Os dados utilizados foram obtidos a partir do seguinte conjunto:
+Kaggle - Student Scores
 
-3)Quantos alunos trabalham meio período? 316 alunos trabalham e 1684 não trabalham
-3.1)Quantas mulheres e quantos homens trabalham?
- Mulheres= 167 , Homens = 149
- 
-4)Qual a maior quantidade de faltas? 10 faltas
+Questões Abstraídas dos Dados
 
-5)Quantos estudantes praticam alguma atividade extracurricular? 408 alunos
-5.1)Quantos destes trabalham meio período?62
+1) Sobre os Primeiros e Últimos Nomes:
 
-6)Qual a média de horas de estudo por semana?18h15min
+Nome mais repetido: Zachary
 
-7)Qual a média de estudo feminino e masculino (separados)?
-Feminino 17h36m e Masculina = 19h09m
+Segundo nome mais repetido: Aaron
 
-8)Comparativo de dedicação ao estudo por género:
-Feminino acima da média = 465 pessoas, porcentagem : 23.4%
-Feminino abaixo da média  = 535 pessoas,  porcentagem : 26.8%
-Masculino  acima da média = 550 pessoas,  porcentagem : 27.5%
-Masculino abaixo da média = 448 pessoas ,  porcentagem : 22.4%
+Último nome mais repetido: Zuniga
 
+Último nome que menos se repete: Abbott
 
-9)Sobre aspiração de carreira:
-9.1)Qual a carreira mais escolhida? Escritora
-9.2)Qual a carreira menos escolhida? Contador
+2) Porcentagem de Gênero na Escola:
 
-10)Sobre as notas:
-10.1)Qual a média de cada matéria?
-Matemática-83.45 pontos
-História-80.33 pontos
-Física-81.34 pontos
-Química- 80 pontos
-Biologia- 79.58 pontos
-Inglês-81.28 pontos
-Geografia-80.89 pontos
+Feminino: 50.1%
 
-10.2)Qual a menor nota de cada matéria?
-Matemática-40 pontos
-História-50 pontos
-Física-50 pontos
-Química-50 pontos
-Biologia-30 pontos
-Inglês-50 pontos
-Geografia-60 pontos
+Masculino: 49.9%
 
-10.3)Qual a maior nota de cada matéria?
-Matemática- 100 pontos
-História-100 pontos
-Física-100 pontos
-Química-100 pontos
-Biologia-100 pontos
-Inglês-99 pontos
-Geografia-100 pontos
+3) Alunos que Trabalham Meio Período:
 
-10.4)Qual  o aluno que tem as melhores notas?
-Lisa Mitchell com id 797
+Total de alunos que trabalham: 316
 
-10.5)Qual o aluno que tem as piores notas?
-Tem dois alunos com a mesma média
-1-Thomas Scott com id 1662
-2-  Jennifer Leblanc com id 1966
+Total de alunos que não trabalham: 1684
+
+Distribuição por gênero:
+
+Mulheres: 167
+
+Homens: 149
+
+4) Faltas:
+
+Maior quantidade de faltas: 10 faltas
+
+5) Atividades Extracurriculares:
+
+Total de alunos que praticam alguma atividade extracurricular: 408
+
+Desses, quantos trabalham meio período: 62
+
+6) Média de Horas de Estudo por Semana:
+
+Total: 18h15min
+
+7) Média de Estudo por Gênero:
+
+Feminino: 17h36min
+
+Masculino: 19h09min
+
+8) Comparativo de Dedicação ao Estudo por Gênero:
+
+Feminino acima da média: 465 pessoas (23.4%)
+
+Feminino abaixo da média: 535 pessoas (26.8%)
+
+Masculino acima da média: 550 pessoas (27.5%)
+
+Masculino abaixo da média: 448 pessoas (22.4%)
+
+9) Aspiração de Carreira:
+
+Carreira mais escolhida: Escritora
+
+Carreira menos escolhida: Contador
+
+10) Notas:
+
+10.1) Média de Notas por Matéria:
+
+Matemática: 83.45 pontos
+
+História: 80.33 pontos
+
+Física: 81.34 pontos
+
+Química: 80 pontos
+
+Biologia: 79.58 pontos
+
+Inglês: 81.28 pontos
+
+Geografia: 80.89 pontos
+
+10.2) Menor Nota por Matéria:
+
+Matemática: 40 pontos
+
+História: 50 pontos
+
+Física: 50 pontos
+
+Química: 50 pontos
+
+Biologia: 30 pontos
+
+Inglês: 50 pontos
+
+Geografia: 60 pontos
+
+10.3) Maior Nota por Matéria:
+
+Matemática: 100 pontos
+
+História: 100 pontos
+
+Física: 100 pontos
+
+Química: 100 pontos
+
+Biologia: 100 pontos
+
+Inglês: 99 pontos
+
+Geografia: 100 pontos
+
+10.4) Melhor Aluno:
+
+Lisa Mitchell (ID 797)
+
+10.5) Piores Alunos:
+
+Thomas Scott (ID 1662)
+
+Jennifer Leblanc (ID 1966)
+
+Tecnologias Utilizadas
+
+Jupyter Notebook para análise de dados
+
+Licença
+
+Este projeto está licenciado sob a licença CC0-1.0.
+
+Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, abrindo issues ou enviando pull requests.
+
+Nota: Este projeto se trata de uma análise fictícia e tem fins educacionais.
+
 
